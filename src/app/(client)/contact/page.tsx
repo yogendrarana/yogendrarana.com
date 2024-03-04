@@ -2,7 +2,7 @@ import Link from "next/link";
 import { MY_DATA } from "@/data/my_data";
 
 // import components
-import Navbar from "@/components/layout/Navbar";
+import Navbar from "@/components/layout/Header";
 import EmailButton from "@/components/util/EmailButton";
 import Footer from "@/components/layout/Footer";
 

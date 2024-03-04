@@ -1,12 +1,12 @@
 import Marquee from "react-fast-marquee"
 
 // components
-import Navbar from "./Navbar"
+import Header from "./Header"
 
 const Banner = () => {
     return (
         <div className='h-[100vh] w-full flex flex-col justify-between relative'>
-            <Navbar />
+            <Header />
 
             <div className='lg:flex gap-[3rem] text-center text-[10rem] font-bold w-full'>
                 <Marquee speed={100}>

@@ -2,15 +2,16 @@
 
 import { useState } from "react";
 import { MY_DATA } from "@/data/my_data";
-import Accordion from "@/components/util/Accordion";
 
+// components
+import Accordion from "@/components/util/Accordion";
 
 const About = () => {
     const [activeAccordion, setActiveAccordion] = useState<number | false>(false);
     const summaryParts = MY_DATA.generalSummary.split('<br />');
 
     return (
-        <div className="p-[var(--px)] sm:p-[var(--md-px)] flex flex-col border-2 rounded-[2.5rem]">
+        <div className="p-[var(--px)] sm:p-[var(--md-px)] flex flex-col border-2 rounded-[2.5rem] overflow-hidden">
 
             {/* heading */}
             <div className=" border-b">
@@ -30,7 +31,7 @@ const About = () => {
                         })
                     }
                 </div>
-                <img src={MY_DATA.avatarUrl} alt="about" className="h-[15rem] w-[15rem] object-cover rounded-[1rem] sm:w-full sm:h-[30rem]" />
+                <img src={MY_DATA.avatarUrl} alt="about" className="h-[15rem] w-[15rem] object-cover rounded-[1rem] sm:w-[10rem] sm:h-[10rem]" />
             </div>
 
             {/* faq */}
@@ -48,7 +49,6 @@ const About = () => {
                     }
                 </div>
             </div>
-
         </div>
 
     )
