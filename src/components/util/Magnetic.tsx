@@ -7,7 +7,7 @@ type PropType = {
     children: React.ReactNode;
 };
 
-const GsapMagnetic: React.FC<PropType> = ({ children }) => {
+const Magnetic: React.FC<PropType> = ({ children }) => {
     const ref = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
@@ -48,4 +48,4 @@ const GsapMagnetic: React.FC<PropType> = ({ children }) => {
     return clonedElement;
 };
 
-export default GsapMagnetic;
+export default Magnetic;

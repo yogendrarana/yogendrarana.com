@@ -2,13 +2,13 @@ import { MY_DATA } from "@/data/my_data";
 
 const useNavMenu = () => {
     const navMenu = [
+        // {
+        //     label: "Home",
+        //     href: "/",
+        // },
         {
-            label: "Home",
-            href: "/",
-        },
-        {
-            label: "About",
-            href: "/about",
+            label: "Blog",
+            href: "/blog",
         },
         {
             label: "Contact",

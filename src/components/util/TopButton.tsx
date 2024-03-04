@@ -1,6 +1,6 @@
 "use client";
 
-const BackToTopButton = () => {
+const topbutton = () => {
     return (
         <button
             onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }}
@@ -16,4 +16,4 @@ const BackToTopButton = () => {
     )
 }
 
-export default BackToTopButton;
+export default topbutton;
