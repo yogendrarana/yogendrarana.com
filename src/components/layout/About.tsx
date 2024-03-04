@@ -5,6 +5,7 @@ import { MY_DATA } from "@/data/my_data";
 
 // components
 import Accordion from "@/components/util/Accordion";
+import Image from "next/image";
 
 const About = () => {
     const [activeAccordion, setActiveAccordion] = useState<number | false>(false);
@@ -31,12 +32,19 @@ const About = () => {
                         })
                     }
                 </div>
-                <img src={MY_DATA.avatarUrl} alt="about" className="h-[15rem] w-[15rem] object-cover rounded-[1rem] sm:w-[10rem] sm:h-[10rem]" />
+                <Image
+                    src={MY_DATA.avatarUrl}
+                    alt="profile_pic"
+                    height={15}
+                    width={15}
+                    unoptimized={true}
+                    className="h-[15rem] w-[15rem] object-cover rounded-[1rem] sm:w-[10rem] sm:h-[10rem]"
+                />
             </div>
 
             {/* faq */}
             <div className="flex flex-col gap-[2rem]">
-                <h1 className="text-[2rem] font-bold border-b">Want to know more?</h1>
+                <h1 className="text-[2rem] font-bold border-b">More abot me!</h1>
                 <div className="flex flex-col gap-[2rem]">
                     {
                         MY_DATA.faq.map((faq, index) => {

@@ -50,7 +50,7 @@ const MobileNav = () => {
                     "
                 >
                     {/* menu list */}
-                    <div className="flex flex-col gap-[1rem] pt-[125px] text-[1.8rem]">
+                    <div className="flex flex-col gap-[1rem] pt-[75px] text-[1.8rem]">
                         {
                             navMenu.map((item, index) => {
                                 return (
