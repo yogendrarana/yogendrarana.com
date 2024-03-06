@@ -12,7 +12,7 @@ const About = () => {
     const summaryParts = MY_DATA.generalSummary.split('<br />');
 
     return (
-        <div className="p-[var(--px)] sm:p-[var(--md-px)] flex flex-col border-2 rounded-[2.5rem] overflow-hidden">
+        <div className="min-h-screen p-[var(--px)] sm:p-[var(--md-px)] flex flex-col bg-gray-100 justify-center overflow-hidden">
 
             {/* heading */}
             <div className=" border-b">
@@ -44,7 +44,7 @@ const About = () => {
 
             {/* faq */}
             <div className="flex flex-col gap-[2rem]">
-                <h1 className="text-[2rem] font-bold border-b">More abot me!</h1>
+                <h1 className="text-[2rem] font-bold border-b">More About Me!</h1>
                 <div className="flex flex-col gap-[2rem]">
                     {
                         MY_DATA.faq.map((faq, index) => {

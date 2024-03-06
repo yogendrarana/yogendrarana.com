@@ -3,12 +3,11 @@ import Marquee from "react-fast-marquee"
 
 // components
 import Header from "./Header"
-import useTechSack from "@/hooks/useTechSack"
+import { tech } from "@/config/tech"
 
 const Banner = () => {
-    const { languages, frameworks } = useTechSack();
-    const primary_languages = languages.filter((lang) => lang.name !== "Go");
-    const primary_frameworks = frameworks.filter(f => !["Gin", "Nest"].includes(f.name));;
+    const primary_languages = tech.languages.filter((lang) => lang.name !== "Go");
+    const primary_frameworks = tech.frameworks.filter(f => !["Gin", "Nest"].includes(f.name));;
     const primary_stack = [...primary_languages, ...primary_frameworks];
 
     return (
@@ -34,10 +33,10 @@ const Banner = () => {
                 '
             >
                 <p className="font-bold text-[1.75rem] whitespace-nowrap">Full Stack Developer</p>
-                <div className="flex gap-[.75rem]">
+                <div className="flex gap-[.5rem]">
                     {
                         primary_stack.map((item, index) => (
-                            <div key={index} className='group flex justify-center items-center cursor-pointer'>
+                            <div key={index} className='group p-[.35rem] border flex justify-center items-center cursor-pointer overflow-hidden'>
                                 <Image
                                     src={item?.logo}
                                     alt={item.name}

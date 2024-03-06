@@ -5,7 +5,7 @@ export const MY_DATA = {
     locationLink: "https://www.google.com/maps/place/pokhara",
     about: "Full Stack Developer",
     professionalSummary: "Full stack web developer with over a year of experience building user interfaces and RESTful APIs. Proficient in JavaScript/TS and its frameworks like React, Next, Node, Express, and Nest. Also familiar with Go and its backend framework, Gin.",
-    generalSummary: "Hello! I'm Yogendra Rana from Pokhara, Nepal. I am a full-stack developer specializing in JavaScript/TypeScript and Golang. I completed my Bachelors of Science in Computer Science and Information Technology (CSIT) from Prithvi Narayan Campus, Pokhara (Tribhuvan University) in 2023. <br /> Let's collaborate and bring your ideas to life!",
+    generalSummary: "Hello! I'm Yogendra Rana from Pokhara, Nepal. I am a full-stack developer specializing in JavaScript/TypeScript. I completed my Bachelors of Science in Computer Science and Information Technology from Prithvi Narayan Campus, Pokhara (Tribhuvan University) in 2023. <br /> Let's collaborate and bring your ideas to life!",
     avatarUrl: " https://github.com/yogendrarana.png",
     personalWebsiteUrl: "https://www.yogendrarana.com.np/",
     cvUrl: "https://cv-yogendra-rana.vercel.app/",

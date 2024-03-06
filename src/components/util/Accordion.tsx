@@ -24,7 +24,7 @@ const Accordion: React.FC<AccordionProps> = ({ question, answer, activeAccordion
                 <div className="flex justify-between items-center">
                     <p className="text-[1.5rem] font-bold">{question}</p>
 
-                    <button className="h-[3rem] w-[3rem] grid place-items-center rounded-full hover:bg-gray-100 transition-all ease-in-out duration-200">
+                    <button className="h-[3rem] w-[3rem] grid place-items-center rounded-full hover:border hover:border-gray-300 transition-all ease-in-out duration-300">
                         {
                             isOpen ? <i className="fa-solid fa-minus"></i> : <i className="fa-solid fa-plus"></i>
                         }

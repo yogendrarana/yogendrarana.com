@@ -2,22 +2,18 @@ import Link from "next/link";
 import { MY_DATA } from "@/data/my_data";
 
 // import components
-import Navbar from "@/components/layout/Header";
 import EmailButton from "@/components/util/EmailButton";
-import Footer from "@/components/layout/Footer";
 
-const ContactPage = () => {
+const Contact = () => {
 
     return (
-        <div className="min-h-screen flex flex-col justify-between">
-            <Navbar />
-
+        <div className="min-h-screen flex flex-col justify-center">
             <div className="px-[var(--px)] sm:px-[var(--md-px)] flex flex-col justify-between">
                 {/* heading */}
                 <div className="py-[4rem] border-b">
                     <div className="text-[5rem] font-bold uppercase">
-                        <p>Let&apos;s</p>
-                        <p>Work Together!</p>
+                        <p>My</p>
+                        <p>Contact!</p>
                     </div>
                 </div>
 
@@ -63,11 +59,8 @@ const ContactPage = () => {
                     </div>
                 </div>
             </div>
-
-            {/* footer */}
-            <Footer />
         </div >
     )
 }
 
-export default ContactPage;
+export default Contact;

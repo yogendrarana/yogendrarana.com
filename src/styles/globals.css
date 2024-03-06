@@ -5,11 +5,11 @@
 
 :root {
   /* height */
-  --header-height: 8rem;
+  --header-height: 10rem;
   --btn-height: 2.5rem;
 
   /* padding */
-  --px: 5rem;
+  --px: 10rem;
   --md-px: 1.5rem;
 
 
@@ -26,10 +26,10 @@
 }
 
 html {
-  font-family: input-mono, monospace;
   font-size: 62.5%;
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
+  font-family: input-mono, monospace;
 }
 
 /* banner */

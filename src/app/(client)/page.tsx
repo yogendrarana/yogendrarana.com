@@ -1,16 +1,26 @@
 import About from "@/components/layout/About";
 import Banner from "@/components/layout/Banner";
 import Footer from "@/components/layout/Footer";
+import Contact from "@/components/layout/Contact";
+import Projects from "@/components/layout/Projects";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="flex flex-col gap-[2rem]">
       <div>
         <Banner />
       </div>
 
-      <div className="p-[var(--px)] sm:p-[var(--md-px)] flex flex-col justify-between">
+      <div id="about">
         <About />
+      </div>
+
+      <div id="projects">
+        <Projects />
+      </div>
+
+      <div id="contact">
+        <Contact />
       </div>
 
       <div>

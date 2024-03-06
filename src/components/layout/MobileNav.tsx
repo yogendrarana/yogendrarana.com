@@ -12,13 +12,14 @@ import { MY_DATA } from '@/data/my_data';
 import MenuButton from '../util/MenuButton';
 
 // hooks
-import useNavMenu from '@/hooks/useNavMenu';
+import { nav_menu } from '@/config/nav';
 import { useMenuStore } from '@/store/useMenuStore';
 
 const MobileNav = () => {
     const router = useRouter();
-    const navMenu = useNavMenu();
     const socials = MY_DATA.contact.social;
+    const main_menu = nav_menu.mainMenu;
+    const more_menu = nav_menu.moreMenu;
     const { isMenuOpen, toggleMenu } = useMenuStore();
 
     const menuVariants = {
@@ -52,7 +53,7 @@ const MobileNav = () => {
                     {/* menu list */}
                     <div className="flex flex-col gap-[1rem] pt-[75px] text-[1.8rem]">
                         {
-                            navMenu.map((item, index) => {
+                            main_menu.map((item, index) => {
                                 return (
                                     <div
                                         onClick={() => {
