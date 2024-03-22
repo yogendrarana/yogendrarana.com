@@ -3,6 +3,8 @@ import Marquee from "react-fast-marquee"
 
 // components
 import Header from "./header";
+
+// data
 import { tech } from "@/config/tech"
 import { MY_DATA } from "@/data/my-data";
 
@@ -16,12 +18,10 @@ const Banner = () => {
             <Header />
 
             <div className='lg:flex text-center font-bold w-full'>
-                {/* <Marquee speed={100}> */}
-                    <div className="flex flex-col justify-center gap-[5rem] md:tracking-normal">
-                        <p className="text-[10rem] tracking-[1rem]">Yogendra Rana</p>
-                        <p className="text-[1.8rem]">{MY_DATA.generalSummary}</p>
-                    </div>
-                {/* </Marquee> */}
+                <div className="flex flex-col justify-center gap-[5rem] md:tracking-normal">
+                    <p className="text-[10rem] tracking-[1rem] sm:text-[5rem]">Yogendra Rana</p>
+                    <p className="text-[1.8rem]">{MY_DATA.generalSummary}</p>
+                </div>
             </div>
 
             <div

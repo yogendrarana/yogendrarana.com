@@ -4,7 +4,7 @@ export const MY_DATA = {
     location: "Pokhara, Nepal",
     locationLink: "https://www.google.com/maps/place/pokhara",
     about: "Full Stack Developer",
-    generalSummary: "Full stack web developer from Nepal.",
+    generalSummary: "Web developer from Nepal.",
     professionalSummary: "I am a full stack web developer with over a year of experience building user interfaces and RESTful APIs. Proficient in JavaScript/TS and its frameworks like React, Next, Node, Express, and Nest. Also familiar with Go and its backend framework, Gin.",
     avatarUrl: " https://github.com/yogendrarana.png",
     personalWebsiteUrl: "https://www.yogendrarana.com.np/",
