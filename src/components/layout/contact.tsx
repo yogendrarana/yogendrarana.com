@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { MY_DATA } from "@/data/my_data";
+import { MY_DATA } from "@/data/my-data";
 
 // import components
-import EmailButton from "@/components/util/EmailButton";
+import EmailButton from "@/components/util/email-button";
 
 const Contact = () => {
 

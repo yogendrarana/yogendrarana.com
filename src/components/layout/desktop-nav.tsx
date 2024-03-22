@@ -1,8 +1,11 @@
 import React from 'react'
 import Link from 'next/link';
 
+// config
 import { nav_menu } from '@/config/nav';
-import Magnetic from "@/components/util/Magnetic"
+
+// components
+import Magnetic from "@/components/util/magnetic"
 
 const DesktopNav = () => {
     const main_menu = nav_menu.mainMenu;

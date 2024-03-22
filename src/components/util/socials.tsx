@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { MY_DATA } from "@/data/my_data";
+import { MY_DATA } from "@/data/my-data";
 
 // import components
-import Magnetic from "./Magnetic";
+import Magnetic from "./magnetic";
 
 const Socials = () => {
     const socials = MY_DATA.contact.social;

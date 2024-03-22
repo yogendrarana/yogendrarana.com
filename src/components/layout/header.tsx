@@ -1,16 +1,10 @@
-import Link from 'next/link'
-
-import useNavMenu from '@/hooks/useNavMenu'
-
-// import components
-import Logo from '@/components/util/Logo'
-import Socials from '@/components/util/Socials'
-import Magnetic from '../util/Magnetic'
-import DesktopNav from './DesktopNav'
-import MobileNav from './MobileNav'
+// components
+import MobileNav from './mobile-nav'
+import DesktopNav from './desktop-nav'
+import Logo from '@/components/util/logo'
+import Socials from '@/components/util/socials'
 
 const Header = () => {
-    const menu = useNavMenu();
 
     return (
         <div>

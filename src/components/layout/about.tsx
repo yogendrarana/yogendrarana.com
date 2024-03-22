@@ -1,15 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { MY_DATA } from "@/data/my_data";
+import { MY_DATA } from "@/data/my-data";
 
 // components
-import Accordion from "@/components/util/Accordion";
+import Accordion from "@/components/util/accordion";
 import Image from "next/image";
 
 const About = () => {
     const [activeAccordion, setActiveAccordion] = useState<number | false>(false);
-    const summaryParts = MY_DATA.generalSummary.split('<br />');
+    const summaryParts = MY_DATA.professionalSummary.split('<br />');
 
     return (
         <div className="min-h-screen p-[var(--px)] sm:p-[var(--md-px)] flex flex-col bg-gray-100 justify-center overflow-hidden">
@@ -32,14 +32,14 @@ const About = () => {
                         })
                     }
                 </div>
-                <Image
+                {/* <Image
                     src={MY_DATA.avatarUrl}
                     alt="profile_pic"
                     height={15}
                     width={15}
                     unoptimized={true}
                     className="h-[15rem] w-[15rem] object-cover rounded-[1rem] sm:w-[10rem] sm:h-[10rem]"
-                />
+                /> */}
             </div>
 
             {/* faq */}

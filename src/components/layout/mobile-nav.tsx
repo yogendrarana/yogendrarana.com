@@ -6,10 +6,10 @@ import { motion } from 'framer-motion'
 import { useRouter } from 'next/navigation';
 
 // data
-import { MY_DATA } from '@/data/my_data';
+import { MY_DATA } from '@/data/my-data';
 
 // components
-import MenuButton from '../util/MenuButton';
+import MenuButton from '../util/menu-button';
 
 // hooks
 import { nav_menu } from '@/config/nav';

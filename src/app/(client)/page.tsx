@@ -1,8 +1,7 @@
-import About from "@/components/layout/About";
-import Banner from "@/components/layout/Banner";
-import Footer from "@/components/layout/Footer";
-import Contact from "@/components/layout/Contact";
-import Projects from "@/components/layout/Projects";
+import About from "@/components/layout/about";
+import Banner from "@/components/layout/banner";
+import Footer from "@/components/layout/footer";
+import Contact from "@/components/layout/contact";
 
 const HomePage = () => {
   return (
@@ -15,9 +14,9 @@ const HomePage = () => {
         <About />
       </div>
 
-      <div id="projects">
+      {/* <div id="projects">
         <Projects />
-      </div>
+      </div> */}
 
       <div id="contact">
         <Contact />

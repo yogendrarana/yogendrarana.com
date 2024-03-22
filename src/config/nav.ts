@@ -1,4 +1,4 @@
-import { MY_DATA } from "@/data/my_data";
+import { MY_DATA } from "@/data/my-data";
 
 interface INavMenu {
     label: string;

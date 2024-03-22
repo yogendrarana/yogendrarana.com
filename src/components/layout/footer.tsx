@@ -1,8 +1,8 @@
 
-import Watch from "@/components/util/Watch";
-import Socials from "@/components/util/Socials";
-import TopButton from "@/components/util/TopButton";
-import Logo from "../util/Logo";
+import Watch from "@/components/util/watch";
+import Socials from "@/components/util/socials";
+import TopButton from "@/components/util/top-button";
+import Logo from "../util/logo";
 
 const Footer = () => {
     return (

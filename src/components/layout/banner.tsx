@@ -2,8 +2,9 @@ import Image from "next/image";
 import Marquee from "react-fast-marquee"
 
 // components
-import Header from "./Header"
+import Header from "./header";
 import { tech } from "@/config/tech"
+import { MY_DATA } from "@/data/my-data";
 
 const Banner = () => {
     const primary_languages = tech.languages.filter((lang) => lang.name !== "Go");
@@ -14,14 +15,13 @@ const Banner = () => {
         <div className='h-[100vh] w-full flex flex-col justify-between relative'>
             <Header />
 
-            <div className='lg:flex text-center text-[10rem] font-bold w-full'>
-                <Marquee speed={100}>
-                    <div className="flex justify-center gap-[5rem] tracking-[1rem] md:tracking-normal">
-                        <p>*</p>
-                        <p>Yogendra</p>
-                        <p>Rana</p>
+            <div className='lg:flex text-center font-bold w-full'>
+                {/* <Marquee speed={100}> */}
+                    <div className="flex flex-col justify-center gap-[5rem] md:tracking-normal">
+                        <p className="text-[10rem] tracking-[1rem]">Yogendra Rana</p>
+                        <p className="text-[1.8rem]">{MY_DATA.generalSummary}</p>
                     </div>
-                </Marquee>
+                {/* </Marquee> */}
             </div>
 
             <div
