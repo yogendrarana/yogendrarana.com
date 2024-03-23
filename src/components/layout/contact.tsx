@@ -7,13 +7,11 @@ import EmailButton from "@/components/util/email-button";
 const Contact = () => {
 
     return (
-        <div className="min-h-screen flex flex-col justify-center">
-            <div className="px-[var(--px)] sm:px-[var(--md-px)] flex flex-col justify-between">
+            <div className="min-h-screen p-[var(--px)] sm:p-[var(--md-px)] flex flex-col justify-between">
                 {/* heading */}
                 <div className="py-[4rem] border-b">
                     <div className="text-[5rem] font-bold uppercase">
-                        <p>My</p>
-                        <p>Contact!</p>
+                        <p>Contact Me!</p>
                     </div>
                 </div>
 
@@ -59,7 +57,6 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-        </div >
     )
 }
 

@@ -14,7 +14,7 @@ const Banner = () => {
     const primary_stack = [...primary_languages, ...primary_frameworks];
 
     return (
-        <div className='h-[100vh] w-full flex flex-col justify-between relative'>
+        <div className='h-screen w-full flex flex-col justify-between relative '>
             <Header />
 
             <div className='lg:flex text-center font-bold w-full'>

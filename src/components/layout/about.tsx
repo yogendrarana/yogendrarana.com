@@ -12,7 +12,7 @@ const About = () => {
     const summaryParts = MY_DATA.professionalSummary.split('<br />');
 
     return (
-        <div className="min-h-screen p-[var(--px)] sm:p-[var(--md-px)] flex flex-col bg-gray-100 justify-center overflow-hidden">
+        <div className="min-h-screen p-[var(--px)] sm:p-[var(--md-px)] flex flex-col justify-center overflow-hidden">
 
             {/* heading */}
             <div className=" border-b">

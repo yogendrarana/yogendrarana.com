@@ -2,14 +2,12 @@
 import Watch from "@/components/util/watch";
 import Socials from "@/components/util/socials";
 import TopButton from "@/components/util/top-button";
-import Logo from "../util/logo";
 
 const Footer = () => {
     return (
         <footer
             className='
                 min-h-[var(--nav-height)]  
-                mt-[2.5rem]  
                 px-[var(--px)] sm:px-[var(--md-px)]
                 py-[2.5rem] 
                 flex flex-col items-center gap-[3rem]
