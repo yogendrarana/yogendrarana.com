@@ -131,20 +131,20 @@ export const MY_DATA = {
     ],
     faq: [
         {
-            "question": "What is my tech stack?",
-            "answer": "My tech stack includes React and Next.js for making the website look nice, and Node.js and Express.js for doing the heavy lifting behind the scenes. I also handle data using MongoDB, MySQL, and PostgreSQL. In my own projects, I like to play around with Go and Gin."
+            "question": "What is your degree?",
+            "answer": "I hold a Bachelor's Degree in Computer Science and Information Technology from Tribhuvan University, Nepal."
         },
         {
-            "question": "When did I start coding?",
-            "answer": "I started coding during the lockdown in 2020. I started with HTML and CSS, then moved on to JavaScript. I learned React and Node.js in 2021. I'm currently learning Go. I also want to learn blockchain technology in the future."
+            "question": "What is your tech stack?",
+            "answer": "My tech stack includes React, Next and Node. I use MongoDB, MySQL, and PostgreSQL. In my personal projects, I use Go and Gin for the backend."
         },
         {
-            "question": "How did I learn to code?",
-            "answer": "I learned to code by watching videos from YouTube channels like Web Dev Simplified, The Net Ninja, Dave Gray, Coding Addict and 6 Pack Programmer to name few. But honestly, the best way to learn is by reading the official documentation."
+            "question": "When did you start coding?",
+            "answer": "I started coding during the lockdown in 2020. I started with HTML and CSS and JavaScript. Then I moved on to React and Node. I'm currently exploring Go."
         },
         {
-            "question": "Who do I look up to in the tech industry?",
-            "answer": "I look up to folks who share their knowledge online. Some of the people I admire are The Primeagen, Theo Browne(T3.gg), Harkirat Singh, Fireship, and the folks at Vercel who are actively sharing content on twitter."
+            "question": "How did you learn to code?",
+            "answer": "Mostly by watching videos from YouTube and reading documentations. Props to Web Dev Simplified, The Net Ninja, Dave Gray for their amazing tutorials."
         }
     ]
 } as const;

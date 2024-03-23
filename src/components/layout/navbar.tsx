@@ -4,13 +4,13 @@ import DesktopNav from './desktop-nav'
 import Logo from '@/components/util/logo'
 import Socials from '@/components/util/socials'
 
-const Header = () => {
+const Navbar = () => {
 
     return (
         <div>
             <div
                 className='
-                    h-[var(--header-height)] w-full 
+                    h-[var(--nav-height)] w-full 
                     px-[var(--px)] sm:px-[var(--md-px)]
                     flex items-center justify-between 
                     relative
@@ -33,4 +33,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default Navbar;

@@ -1,8 +1,7 @@
 import Image from "next/image";
-import Marquee from "react-fast-marquee"
 
 // components
-import Header from "./header";
+import Navbar from "./navbar";
 
 // data
 import { tech } from "@/config/tech"
@@ -14,13 +13,13 @@ const Banner = () => {
     const primary_stack = [...primary_languages, ...primary_frameworks];
 
     return (
-        <div className='h-screen w-full flex flex-col justify-between relative '>
-            <Header />
+        <div className='h-screen w-full flex flex-col justify-between relative'>
+            <Navbar />
 
-            <div className='lg:flex text-center font-bold w-full'>
+            <div className='lg:flex text-center w-full'>
                 <div className="flex flex-col justify-center gap-[5rem] md:tracking-normal">
-                    <p className="text-[10rem] tracking-[1rem] sm:text-[5rem]">Yogendra Rana</p>
-                    <p className="text-[1.8rem]">{MY_DATA.generalSummary}</p>
+                    <p className="text-[10rem] font-bold tracking-[1rem] sm:text-[5rem]">Yogendra Rana</p>
+                    <p className="text-[2rem] font-medium">{MY_DATA.generalSummary}</p>
                 </div>
             </div>
 
