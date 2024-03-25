@@ -17,9 +17,9 @@ const Banner = () => {
             <Navbar />
 
             <div className='lg:flex text-center w-full'>
-                <div className="flex flex-col justify-center gap-[5rem] md:tracking-normal">
-                    <p className="text-[10rem] font-bold tracking-[1rem] sm:text-[5rem]">Yogendra Rana</p>
-                    <p className="text-[2rem] font-medium">{MY_DATA.generalSummary}</p>
+                <div className="flex flex-col justify-center gap-[5rem] ">
+                    <p className="text-[10rem] font-bold sm:text-[5rem]">Yogendra Rana</p>
+                    <p className="text-[2rem] tracking-[.25rem] md:tracking-normal font-bold">{MY_DATA.generalSummary}</p>
                 </div>
             </div>
 
