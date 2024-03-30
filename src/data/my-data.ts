@@ -141,10 +141,6 @@ export const MY_DATA = {
         {
             "question": "When did you start coding?",
             "answer": "I started coding during the lockdown in 2020. I started with HTML and CSS and JavaScript. Then I moved on to React and Node. I'm currently exploring Go."
-        },
-        {
-            "question": "How did you learn to code?",
-            "answer": "Mostly by watching videos from YouTube and reading documentations. Props to Web Dev Simplified, The Net Ninja, Dave Gray for their amazing tutorials."
         }
     ]
 } as const;
