@@ -25,6 +25,7 @@ const DesktopNav = () => {
                                         group
                                         relative
                                         cursor-pointer 
+                                        hover:font-bold
                                         
                                         before:content-['']
                                         before:h-[0.75rem] before:w-[0.75rem]
@@ -55,6 +56,7 @@ const DesktopNav = () => {
                                         group
                                         relative
                                         cursor-pointer 
+                                        hover:font-bold
                                         
                                         before:content-['']
                                         before:h-[0.75rem] before:w-[0.75rem]
@@ -74,4 +76,4 @@ const DesktopNav = () => {
     )
 }
 
-export default DesktopNav
+export default DesktopNav;

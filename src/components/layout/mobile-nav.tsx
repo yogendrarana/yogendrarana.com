@@ -19,7 +19,6 @@ const MobileNav = () => {
     const router = useRouter();
     const socials = MY_DATA.contact.social;
     const main_menu = nav_menu.mainMenu;
-    const more_menu = nav_menu.moreMenu;
     const { isMenuOpen, toggleMenu } = useMenuStore();
 
     const menuVariants = {
@@ -124,4 +123,4 @@ const MobileNav = () => {
     )
 }
 
-export default MobileNav
+export default MobileNav;
