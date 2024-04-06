@@ -1,10 +1,8 @@
 "use client";
 
-import { MY_DATA } from '@/data/my-data';
-
-const EmailButton = () => {
+const EmailButton = ({email}: {email: string}) => {
     const handleClickOnMail = () => {
-        window.open(`mailto:${MY_DATA.contact.email}`);
+        window.open(`mailto:${email}`);
     }
 
     return (
@@ -13,7 +11,7 @@ const EmailButton = () => {
             className="
                     font-bold
                     mt-[1rem]
-                    inline-block
+                    block
                     relative
                     text-[1.5rem]
                     before:content-['']
@@ -29,7 +27,7 @@ const EmailButton = () => {
                     before:ease-in-out
                     before:duration-500
                 "
-        >{MY_DATA.contact.email}</button>
+        >{email}</button>
     )
 }
 

@@ -10,7 +10,7 @@ export const MY_DATA = {
     personalWebsiteUrl: "https://www.yogendrarana.com.np/",
     cvUrl: "https://resume-yogendra-rana.vercel.app/",
     contact: {
-        email: "yogendrarana4321@gmail.com",
+        emails: ["yogendrarana4321@gmail.com", "yogendrarana.mail@gmail.com"],
         tel: "+977 9825159891",
         social: [
             {
