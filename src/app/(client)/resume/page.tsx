@@ -9,7 +9,7 @@ import { GlobeIcon, MailIcon, PhoneIcon, MapPin } from "lucide-react";
 // import components
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import {Section} from "@/components/ui/section";
+import { Section } from "@/components/ui/section";
 import { CommandMenu } from "./components/command-menu";
 import { ProjectCard } from "./components/project-card";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
@@ -58,14 +58,14 @@ export default function Page() {
                 ) : null
               }
               {
-                MY_DATA.contact.email ? (
+                MY_DATA.contact.emails ? (
                   <Button
                     className="size-8"
                     variant="outline"
                     size="icon"
                     asChild
                   >
-                    <a href={`mailto:${MY_DATA.contact.email}`}>
+                    <a href={`mailto:${MY_DATA.contact.emails[0]}`}>
                       <MailIcon className="size-4" />
                     </a>
                   </Button>
