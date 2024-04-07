@@ -11,7 +11,7 @@ const Navbar = () => {
             className='
                 h-[var(--nav-height)] w-full 
                 px-[var(--px)] sm:px-[var(--md-px)]
-                flex items-center justify-between 
+                flex items-center justify-between
                 relative
             '
         >

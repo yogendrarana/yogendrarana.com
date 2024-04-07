@@ -17,46 +17,41 @@ const Banner = () => {
     const primary_stack = [...primary_languages, ...primary_frameworks];
 
     return (
-        <div className='h-screen w-full flex flex-col justify-between relative'>
+        <div className='h-[80vh] w-full flex flex-col justify-between relative'>
             <Navbar />
 
-            <div className='lg:flex text-center w-full'>
-                <p className="text-[10rem] font-bold sm:text-[5rem]">
+            <div className='flex flex-col flex-1 gap-10 justify-center items-center w-full'>
+                <div className="px-[0.75rem] py-[0.25rem] border rounded-full flex items-center gap-[1rem]">
+                    <div className="size-[1rem] bg-green-500 rounded-full"> </div>
+                    <div className="text-[1.25rem]">{MY_DATA.generalSummary}</div>
+                </div>
+
+                <div className="text-[7rem] font-bold sm:text-[4rem]">
                     {name.map((letter, index) => (
                         <motion.span
                             key={index}
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ delay: index * 0.1 }}
-                            className="cursor-pointer"
+                            className="cursor-pointer lowercase"
                         >
                             {letter}
                         </motion.span>
                     ))}
-                </p>
-            </div>
+                </div>
 
-            <div
-                className='
-                    w-full px-[var(--px)] md:px-[var(--md-px)] py-[3rem]
-                    flex justify-between items-center 
-                    text-[1.5rem] text-center
-                    sm:flex-col sm:gap-[2rem] sm:py-[2rem]
-                '
-            >
-                <p className="text-[1.75rem] whitespace-nowrap">{MY_DATA.generalSummary}</p>
                 <div className="flex gap-[1rem]">
                     {
                         primary_stack.map((item, index) => (
                             <motion.div
-                                whileHover={{ scale: 2, marginLeft: "1rem", marginRight: "1rem"}}
+                                whileHover={{ scale: 2, marginLeft: "1rem", marginRight: "1rem" }}
                                 key={index}
                                 className='flex justify-center cursor-pointer bg-white'
                             >
                                 <Image
                                     src={item?.logo}
                                     alt={item.name}
-                                    className="h-[2.5rem] w-[2.5rem] object-cover"
+                                    className="h-[2.5rem] w-[2.5rem] object-cover opacity-75 hover:opacity-100"
                                 />
                             </motion.div>
                         ))

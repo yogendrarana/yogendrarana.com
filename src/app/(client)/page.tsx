@@ -6,11 +6,11 @@ import Contact from "@/components/layout/contact";
 const HomePage = () => {
   return (
     <div className="flex flex-col">
-      <div id="banner" className="border-b">
+      <div id="banner">
         <Banner />
       </div>
 
-      <div id="about" className="border-b">
+      <div id="about" className="px-[var(--px)] py-20 sm:px-[var(--md-px)]">
         <About />
       </div>
 
