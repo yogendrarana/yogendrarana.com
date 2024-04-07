@@ -12,8 +12,8 @@ const About = () => {
     const summaryParts = MY_DATA.professionalSummary.split('<br />');
 
     return (
-        <div className="p-3 border rounded-2xl shadow-sm flex flex-col justify-center overflow-hidden">
-            <div className="p-20 bg-gray-100 rounded-2xl">
+        <div className="p-3 border rounded-xl shadow-sm flex flex-col justify-center overflow-hidden">
+            <div className="p-20 bg-gray-100 rounded-xl">
                 {/* heading */}
                 <div className="border-b border-gray-300">
                     <div className="text-[5rem] font-bold uppercase">

@@ -40,7 +40,7 @@ const Banner = () => {
                     ))}
                 </div>
 
-                <div className="flex gap-[1rem]">
+                <div className="flex gap-[1.5rem]">
                     {
                         primary_stack.map((item, index) => (
                             <motion.div

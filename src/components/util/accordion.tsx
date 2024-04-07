@@ -21,8 +21,8 @@ const Accordion: React.FC<AccordionProps> = ({ question, answer, activeAccordion
                 onClick={() => setIsOpen(!isOpen)}
             >
                 {/* question */}
-                <div className="flex justify-between items-center">
-                    <p className="text-[1.5rem] font-bold">{question}</p>
+                <div className="group flex justify-between items-center">
+                    <p className="text-[1.5rem] font-bold group-hover:underline">{question}</p>
 
                     <button className="h-[3rem] w-[3rem] grid place-items-center rounded-full hover:border hover:border-gray-300 transition-all ease-in-out duration-300">
                         {
