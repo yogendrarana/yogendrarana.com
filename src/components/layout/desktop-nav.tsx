@@ -13,7 +13,7 @@ const DesktopNav = () => {
 
     return (
         <div className='flex items-center gap-[3rem] sm:hidden'>
-            <div className='flex gap-[3rem] items-center text-[1.5rem]'>
+            <div className='flex gap-6 items-center'>
                 {
                     main_menu.map((nav, index) => (
                         <Magnetic key={index}>
@@ -28,7 +28,7 @@ const DesktopNav = () => {
                                         hover:font-bold
                                         
                                         before:content-['']
-                                        before:h-[0.75rem] before:w-[0.75rem]
+                                        before:h-[0.5rem] before:w-[0.5rem]
                                         before:bg-black before:rounded-full
                                         before:absolute before:bottom-[-1rem] before:left-1/2 before:-translate-x-1/2
                                         before:scale-0 group-hover:before:scale-100
@@ -44,7 +44,7 @@ const DesktopNav = () => {
 
             <div className='text-2xl text-gray-300'>|</div>
 
-            <div className='flex gap-[3rem] items-center text-[1.5rem]'>
+            <div className='flex gap-6 items-center'>
                 {
                     more_menu.map((nav, index) => (
                         <Magnetic key={index}>
@@ -59,7 +59,7 @@ const DesktopNav = () => {
                                         hover:font-bold
                                         
                                         before:content-['']
-                                        before:h-[0.75rem] before:w-[0.75rem]
+                                        before:h-[0.5rem] before:w-[0.5rem]
                                         before:bg-black before:rounded-full
                                         before:absolute before:bottom-[-1rem] before:left-1/2 before:-translate-x-1/2
                                         before:scale-0 group-hover:before:scale-100
@@ -70,7 +70,6 @@ const DesktopNav = () => {
                         </Magnetic>
                     ))
                 }
-
             </div>
         </div>
     )

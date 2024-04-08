@@ -14,17 +14,11 @@ const HomePage = () => {
         <About />
       </div>
 
-      {/* <div id="projects" className="border-b">
-        <Projects />
-      </div> */}
-
       <div id="contact">
         <Contact />
       </div>
 
-      <div>
-        <Footer />
-      </div>
+      <Footer />
     </div>
   )
 }

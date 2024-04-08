@@ -21,12 +21,12 @@ const Banner = () => {
             <Navbar />
 
             <div className='flex flex-col flex-1 gap-10 justify-center items-center w-full'>
-                <div className="px-[0.75rem] py-[0.25rem] border rounded-full flex items-center gap-[1rem]">
-                    <div className="size-[1rem] bg-green-500 rounded-full"> </div>
-                    <div className="text-[1.25rem]">{MY_DATA.generalSummary}</div>
+                <div className="px-3 py-1 border rounded-full flex items-center gap-2">
+                    <div className="size-3 bg-green-500 rounded-full"> </div>
+                    <div className="text-sm">{MY_DATA.generalSummary}</div>
                 </div>
 
-                <div className="text-[7rem] font-bold sm:text-[4rem]">
+                <div className="text-[70px] font-bold sm:text-[30px]">
                     {name.map((letter, index) => (
                         <motion.span
                             key={index}
@@ -40,18 +40,18 @@ const Banner = () => {
                     ))}
                 </div>
 
-                <div className="flex gap-[1.5rem]">
+                <div className="flex gap-4">
                     {
                         primary_stack.map((item, index) => (
                             <motion.div
-                                whileHover={{ scale: 2, marginLeft: "1rem", marginRight: "1rem" }}
+                                whileHover={{ scale: 1.25, marginLeft: "1rem", marginRight: "1rem" }}
                                 key={index}
                                 className='flex justify-center cursor-pointer bg-white'
                             >
                                 <Image
                                     src={item?.logo}
                                     alt={item.name}
-                                    className="h-[2.5rem] w-[2.5rem] object-cover opacity-75 hover:opacity-100"
+                                    className="h-[2.5rem] w-[2.5rem] object-cover"
                                 />
                             </motion.div>
                         ))

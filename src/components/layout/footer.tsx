@@ -9,15 +9,14 @@ const Footer = () => {
             className='
                 min-h-[var(--nav-height)]  
                 px-[var(--px)] sm:px-[var(--md-px)]
-                py-[2.5rem] 
-                flex flex-col items-center gap-[3rem]
+                py-4
+                flex justify-between items-center gap-[3rem]
                 text-[1.25rem] 
                 border-t relative
             '
         >
 
             {/* row 1 */}
-            <div className="w-full flex justify-between items-center gap-[2rem] md:items-center">
                 {/* watch */}
                 <div className="w-1/3">
                     <Watch />
@@ -29,11 +28,10 @@ const Footer = () => {
                 </div>
 
                 {/* email */}
-                <div className="w-1/3 flex items-center gap-[2rem] justify-end">
-                    <p>Top</p>
+                <div className="w-1/3 flex items-center gap-4 justify-end">
+                    <p className="text-sm">Top</p>
                     <TopButton />
                 </div>
-            </div>
         </footer>
     )
 }

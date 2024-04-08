@@ -6,15 +6,16 @@ import Magnetic from "./magnetic";
 
 const Socials = () => {
     const socials = MY_DATA.contact.social;
+ 
     return (
-        <div className='flex justify-center gap-[.75rem]'>
+        <div className='flex justify-center items-center gap-8'>
             {
                 socials.map((option, index) => (
                     <Magnetic key={index}>
                         <Link
                             href={option.url}
                             target='_blank'
-                            className='h-[4rem] w-[4rem] text-[1.5rem] grid place-items-center rounded-full'
+                            className='grid place-items-center'
                         >
                             <i className={`${option.logo.src}`}> </i>
                         </Link>

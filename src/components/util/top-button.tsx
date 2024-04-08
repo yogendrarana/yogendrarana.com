@@ -5,7 +5,7 @@ const topbutton = () => {
         <button
             onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }}
             className="
-                h-[3.5rem] w-[3.5rem] border rounded-full
+                size-10 text-sm border rounded-full
                 grid place-items-center cursor-pointer
                 shadow-lg bg-white
                 dark:bg-white dark:text-black

@@ -20,7 +20,7 @@ const Watch = () => {
     const formattedMinutes = String(time.getMinutes()).padStart(2, '0');
 
     return (
-        <div>
+        <div className="text-sm">
             {formattedHours}:{formattedMinutes} {ampm}
         </div>
     )

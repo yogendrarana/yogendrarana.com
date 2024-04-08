@@ -7,10 +7,10 @@ const Logo = () => {
 
     return (
         <div onClick={() => router.push('/')} className='group inline-flex gap-[10px] cursor-pointer '>
-            <div className="text-[2rem] group-hover:rotate-[360deg] transition-all ease-custom-transition duration-500">©</div>
+            <div className="text-[1.5rem] group-hover:rotate-[360deg] transition-all ease-custom-transition duration-500">©</div>
 
             <div
-                style={{ fontSize: 'var(--normal-font-size)' }}
+                style={{ fontSize: '' }}
                 className="
                         w-[140px] group-hover:w-[225px]
                         flex items-center gap-[5px] relative overflow-hidden

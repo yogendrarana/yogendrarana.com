@@ -5,12 +5,12 @@
 
 :root {
   /* height */
-  --nav-height: 10rem;
-  --btn-height: 2.5rem;
+  --nav-height: 100px;
+  --btn-height: 25px;
 
   /* padding */
-  --px: 25rem;
-  --md-px: 1.5rem;
+  --px: 250px;
+  --md-px: 15px;
 
 
   /* font size */
@@ -26,7 +26,6 @@
 }
 
 html {
-  font-size: 62.5%;
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
   font-family: input-mono, monospace;

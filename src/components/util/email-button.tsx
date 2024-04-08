@@ -10,10 +10,9 @@ const EmailButton = ({email}: {email: string}) => {
             onClick={handleClickOnMail}
             className="
                     font-bold
-                    mt-[1rem]
                     block
                     relative
-                    text-[1.5rem]
+                    text-lg
                     before:content-['']
                     before:py-[1rem]
                     before:absolute before:bottom-[-0.5rem] before:left-0
