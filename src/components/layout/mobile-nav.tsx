@@ -30,7 +30,7 @@ const MobileNav = () => {
         <nav className='hidden sm:flex'>
             <div
                 style={{ fontSize: 'var(--normal-font-size)' }}
-                className={`flex justify-center gap-[1rem] items-center relative z-50`}
+                className={`flex justify-center gap-2 items-center relative z-50`}
             >
                 {/* menu */}
                 <motion.div
@@ -38,7 +38,7 @@ const MobileNav = () => {
                     animate={isMenuOpen ? "open" : "closed"}
                     initial="closed"
                     className="
-                        px-[2rem]
+                        px-4
                         absolute right-0 
                         rounded-[25px]
                         overflow-hidden 
@@ -50,7 +50,7 @@ const MobileNav = () => {
                     "
                 >
                     {/* menu list */}
-                    <div className="flex flex-col gap-[1rem] pt-[75px] text-[1.8rem]">
+                    <div className="flex flex-col gap-2 pt-[75px]">
                         {
                             main_menu.map((item, index) => {
                                 return (
@@ -94,9 +94,9 @@ const MobileNav = () => {
                                             className="
                                                 inline-block
                                                 relative
-                                                text-[1.5rem]
+                                                text-sm
                                                 before:content-['']
-                                                before:py-[1rem]
+                                                before:py-2
                                                 before:absolute before:bottom-[-0.5rem] before:left-0
                                                 before:w-0
                                                 before:hover:w-full

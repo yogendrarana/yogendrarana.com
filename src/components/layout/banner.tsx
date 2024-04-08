@@ -51,7 +51,9 @@ const Banner = () => {
                                 <Image
                                     src={item?.logo}
                                     alt={item.name}
-                                    className="h-[2.5rem] w-[2.5rem] object-cover"
+                                    height={35}
+                                    width={35}
+                                    className="object-cover"
                                 />
                             </motion.div>
                         ))

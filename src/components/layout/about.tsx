@@ -27,14 +27,14 @@ const About = () => {
                     <div className="text-justify">
                         <p>{MY_DATA.professionalSummary}</p>
                     </div>
-                    <Image
+                    {/* <Image
                         src={MY_DATA.avatarUrl}
                         alt="profile_pic"
                         height={100}
                         width={100}
                         unoptimized={true}
                         className=" object-cover rounded-[1rem] sm:w-[10rem] sm:h-[10rem]"
-                    />
+                    /> */}
                 </div>
 
                 {/* faq */}

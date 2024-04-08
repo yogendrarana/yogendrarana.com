@@ -8,7 +8,7 @@ const Socials = () => {
     const socials = MY_DATA.contact.social;
  
     return (
-        <div className='flex justify-center items-center gap-8'>
+        <div className='flex justify-center items-center gap-6'>
             {
                 socials.map((option, index) => (
                     <Magnetic key={index}>

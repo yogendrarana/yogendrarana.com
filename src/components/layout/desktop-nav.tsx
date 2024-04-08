@@ -12,7 +12,7 @@ const DesktopNav = () => {
     const more_menu = nav_menu.moreMenu;
 
     return (
-        <div className='flex items-center gap-[3rem] sm:hidden'>
+        <div className='flex items-center sm:hidden'>
             <div className='flex gap-6 items-center'>
                 {
                     main_menu.map((nav, index) => (
@@ -42,7 +42,7 @@ const DesktopNav = () => {
 
             </div>
 
-            <div className='text-2xl text-gray-300'>|</div>
+            <div className='mx-6 text-2xl text-gray-300'>|</div>
 
             <div className='flex gap-6 items-center'>
                 {
