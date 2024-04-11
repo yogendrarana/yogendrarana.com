@@ -19,7 +19,7 @@ const DesktopNav = () => {
                             <div className="group">
                                 <Link
                                     href={nav.href}
-                                    // target={nav.label === "Resume" ? "_blank" : "_self"}
+                                    target={nav.label === "Resume" ? "_blank" : "_self"}
                                     className="
                                         group
                                         relative
