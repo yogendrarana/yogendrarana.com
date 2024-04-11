@@ -19,9 +19,12 @@ const Navbar = () => {
                 <Logo />
             </div>
 
-            <div className="flex gap-[5rem] items-center">
+            <div className="flex items-center">
                 <DesktopNav />
                 <MobileNav />
+
+            <div className='mx-8 text-gray-200'>|</div>
+
 
                 <div className="sm:hidden mr-[2rem]">
                     <Socials />
