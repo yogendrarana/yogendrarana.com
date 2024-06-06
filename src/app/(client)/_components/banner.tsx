@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 // components
-import Navbar from "./navbar";
+import Navbar from "../../../components/navigation/navbar";
 
 // data
 import { tech } from "@/config/tech"

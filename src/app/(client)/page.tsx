@@ -1,7 +1,7 @@
-import About from "@/components/layout/about";
-import Banner from "@/components/layout/banner";
-import Footer from "@/components/layout/footer";
-import Contact from "@/components/layout/contact";
+import About from "@/app/(client)/_components/about";
+import Banner from "@/app/(client)/_components/banner";
+import Footer from "@/app/(client)/_components/footer";
+import Contact from "@/app/(client)/_components/contact";
 
 const HomePage = () => {
   return (

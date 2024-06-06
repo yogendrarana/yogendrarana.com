@@ -6,7 +6,7 @@ import "@blocknote/react/style.css";
 import "@blocknote/core/fonts/inter.css";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
 import { BlockNoteView, useCreateBlockNote } from "@blocknote/react";
-import Navbar from '@/components/layout/navbar';
+import Navbar from '@/components/navigation/navbar';
 import { Button } from '@/components/ui/button';
 import { Scroll } from 'lucide-react';
 
