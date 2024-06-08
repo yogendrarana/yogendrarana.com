@@ -45,7 +45,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
                     <div className="flex gap-2 flex-wrap">
                         {
                             project.techStack.map((tag, index) => (
-                                <Badge key={index} className='bg-gray-100 text-black rounded-md hover:text-white cursor-pointer '>
+                                <Badge key={index} className='bg-gray-100 text-gray-700 rounded-md hover:text-white cursor-pointer '>
                                     {tag}
                                 </Badge>
                             ))
