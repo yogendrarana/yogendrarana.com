@@ -17,7 +17,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <script defer data-domain="yogendrarana.vercel.app" src="https://plausible.io/js/script.js"></script>
       </head>
       <body>
-        {children}
+        <main>
+          {children}
+        </main>
       </body>
       <Analytics />
     </html>

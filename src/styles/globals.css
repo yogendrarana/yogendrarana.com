@@ -10,8 +10,11 @@
     --btn-height: 25px;
 
     /* padding */
-    --px: 250px;
-    --md-px: 15px;
+    --px: 20px;
+    --px-sm: 50px;
+    --px-md: 100px;
+    --px-lg: 150px;
+    --px-xl: 250px;
 
 
     /* font size */

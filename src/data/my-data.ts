@@ -1,3 +1,5 @@
+import { Github, Linkedin, Twitter } from "@/components/icons";
+
 export const MY_DATA = {
     name: "Yogendra Rana",
     initials: "YR",
