@@ -2,9 +2,7 @@ export type TProject = {
     title: string;
     techStack: string[];
     description: string;
-    image: string;
-    link: {
-        label: string;
-        href: string;
-    };
+    image: any;
+    liveLink: string;
+    githubLink?: string;
 }

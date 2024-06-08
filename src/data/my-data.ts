@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter } from "@/components/icons";
+import { ArtsyLogo, SwiftLogo } from "@/assets";
 
 export const MY_DATA = {
     name: "Yogendra Rana",
@@ -91,44 +91,28 @@ export const MY_DATA = {
     ],
     projects: [
         {
-            title: "Iphone Fix by XPF",
-            techStack: ["HTML", "CSS", "JS"],
-            description: "A website for a night club in Pokhara. Role: Frontend Development.",
-            image: "",
-            link: {
-                label: "www.iphonefixbyxpf.com",
-                href: "https://www.iphonefixbyxpf.com/",
-            },
+            title: "Swift Chat",
+            techStack: ["Next.js", "Zustand", "Pusher", "Auth.js", "Framer Motion"],
+            description: "A minimal web chat application.",
+            image: SwiftLogo,
+            liveLink: "https://swift-web-chat.vercel.app/",
+            githubLink: "https://github.com/yogendrarana/swift"
         },
         {
             title: "Artsy Web Gallery",
             techStack: ["React.js", "Redux Toolkit", "Express.js", "MongoDB", "Stripe", "Khalti"],
-            description: "A web platform for artists to showcase their work and connect with art lovers.",
-            image: "",
-            link: {
-                label: "artsy-art-gallery.vercel.app",
-                href: "https://artsy-art-gallery.vercel.app/",
-            },
-        },
-        {
-            title: "Swift Chat",
-            techStack: ["Next.js", "Zustand", "Pusher", "Auth.js", "Framer Motion"],
-            description: "A minimal web chat application.",
-            image: "",
-            link: {
-                label: "swift-web-chat.vercel.app",
-                href: "https://swift-web-chat.vercel.app/",
-            },
+            description: "A web platform for art enthusiasts to buy and sell art.",
+            image: ArtsyLogo,
+            liveLink: "https://artsy-art-gallery.vercel.app/",
+            githubLink: "https://github.com/yogendrarana/artsy"
         },
         {
             title: "Ecommerce Website",
             techStack: ["React.js", "Zustand", "Framer Motion"],
-            description: "An ecommerce website with all the necessary ui's like auth form, filter, slider, cart, payment form etc.",
+            description: "A minimal frontend only ecommerce website.",
             image: "",
-            link: {
-                label: "react-web-ecommerce.vercel.app",
-                href: "https://react-web-ecommerce.vercel.app/",
-            },
+            liveLink: "https://react-web-ecommerce.vercel.app/",
+            githubLink: "https://github.com/yogendrarana/react-ecommerce"
         },
     ],
     faq: [
@@ -145,4 +129,4 @@ export const MY_DATA = {
             "answer": "I started coding during the lockdown in 2020. I started with HTML and CSS and JavaScript. Then I moved on to React and Node. I'm currently exploring Go."
         }
     ]
-} as const;
+};

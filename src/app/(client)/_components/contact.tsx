@@ -10,8 +10,8 @@ const Contact = () => {
         <div className="py-6 sm:py-10 md:py-20 rounded-lg flex flex-col gap-8">
             {/* heading */}
             <div className="border-b border-gray-300">
-                <div className="text-[40px] font-bold uppercase">
-                    <p className="">Contact Me!</p>
+                <div className="font-bold uppercase">
+                    <p className="text-[30px]">Contact Me!</p>
                 </div>
             </div>
 

@@ -3,6 +3,7 @@ import Banner from "@/app/(client)/_components/banner";
 import Footer from "@/app/(client)/_components/footer";
 import Contact from "@/app/(client)/_components/contact";
 import HomeContainer from "@/components/util/home-container";
+import Projects from "./_components/projects";
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <div className="flex flex-col gap-4">
         <Banner />
         <About />
+        <Projects />
         <Contact />
         <Footer />
       </div>

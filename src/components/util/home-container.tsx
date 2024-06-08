@@ -4,7 +4,7 @@ const HomeContainer = ({ children }: { children: React.ReactElement }) => {
     return (
         <div
             className='
-                px-[20px] sm:px-[30px] md:px-[100px] lg:px-[150px] xl:px-[250px]
+                px-[20px] sm:px-[30px] md:px-[100px] lg:px-[150px] xl:px-[300px]
             '
         >
             {children}

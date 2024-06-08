@@ -19,8 +19,8 @@ const About = () => {
             <div className="p-6 sm:p-10 md:p-20 bg-gray-100 rounded-lg flex flex-col gap-8">
                 {/* heading */}
                 <div className="border-b border-gray-300">
-                    <div className="text-[40px] font-bold uppercase">
-                        <p className="">About Me!</p>
+                    <div className="font-bold uppercase">
+                        <p className="text-[30px]">About Me!</p>
                     </div>
                 </div>
 

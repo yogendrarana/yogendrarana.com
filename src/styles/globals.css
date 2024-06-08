@@ -94,7 +94,6 @@
 html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
-  font-family: input-mono, monospace;
 }
 
 .dark pre[data-theme='light'],
