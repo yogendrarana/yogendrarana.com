@@ -12,7 +12,7 @@ const Logo = () => {
             <div
                 style={{ fontSize: '' }}
                 className="
-                        w-[140px] group-hover:w-[225px]
+                        w-[140px] group-hover:w-[200px]
                         flex items-center gap-[5px] relative overflow-hidden
                         transition-all ease-custom-transition duration-500
                     "

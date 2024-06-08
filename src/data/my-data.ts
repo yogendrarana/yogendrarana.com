@@ -46,7 +46,7 @@ export const MY_DATA = {
             end: "2016",
         },
     ],
-    work: [
+    experience: [
         {
             company: "Rangin Technology",
             link: "https://www.rangin.com.np/",
@@ -58,17 +58,17 @@ export const MY_DATA = {
             description:
                 "Worked as a fullstack developer to create user interfaces in React.js and Next.js and REST APIs in Node.js, Express.js, and Next.js. Technologies: JavaScript, TypeScript, React, Next.js, Node.js, Express.js, Nest.js, MongoDB, PostgreSQL, Docker, and Nginx.",
         },
-        // {
-        //     company: "Nipuna Prabidhik Sewa",
-        //     link: "https://www.nipunasewa.com/",
-        //     badges: ["On Site"],
-        //     role: "React JS Developer",
-        //     logo: "",
-        //     start: "Jan, 2023",
-        //     end: "July, 2023",
-        //     description:
-        //         "As a frontend developer, I built an admin panel for emart using React.js, Tailwind CSS, and Firebase. Technologies: React.js, Tailwind CSS, Firebase",
-        // },
+        {
+            company: "Nipuna Prabidhik Sewa",
+            link: "https://www.nipunasewa.com/",
+            badges: ["On Site"],
+            role: "React JS Developer",
+            logo: "",
+            start: "Jan, 2023",
+            end: "July, 2023",
+            description:
+                "As a frontend developer, I built an admin panel for emart using React.js, Tailwind CSS, and Firebase. Technologies: React.js, Tailwind CSS, Firebase",
+        },
     ],
     skills: [
         "JavaScript",

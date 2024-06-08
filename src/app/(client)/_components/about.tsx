@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -8,6 +9,7 @@ import { MY_DATA } from "@/data/my-data";
 
 // components
 import Accordion from "@/components/util/accordion";
+import Experience from "./experience";
 
 const About = () => {
     const [activeAccordion, setActiveAccordion] = useState<number | false>(false);
