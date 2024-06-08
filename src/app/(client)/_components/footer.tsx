@@ -8,8 +8,6 @@ const Footer = () => {
         <footer
             className='
                 min-h-[var(--nav-height)]  
-                px-[var(--px)] sm:px-[var(--md-px)]
-                py-4
                 flex justify-between items-center gap-[3rem]
                 text-[1.25rem] 
                 border-t relative

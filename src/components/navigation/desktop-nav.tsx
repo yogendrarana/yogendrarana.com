@@ -11,7 +11,7 @@ const DesktopNav = () => {
     const main_menu = nav_menu.mainMenu;
 
     return (
-        <div className='flex items-center sm:hidden'>
+        <div className='flex items-center'>
             <div className='flex gap-6 items-center'>
                 {
                     main_menu.map((nav, index) => (
