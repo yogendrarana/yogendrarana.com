@@ -1,9 +1,9 @@
 import React from 'react'
-import { TProject } from '@/types'
-import { ArrowRight } from 'lucide-react'
-import Image from 'next/image'
 import Link from 'next/link'
+import Image from 'next/image'
+import { TProject } from '@/types'
 import { Badge } from '../ui/badge'
+import { ArrowRight } from 'lucide-react'
 
 interface ProjectCardProps {
     project: TProject
@@ -11,7 +11,7 @@ interface ProjectCardProps {
 
 const ProjectCard = ({ project }: ProjectCardProps) => {
     return (
-        <div className="p-4 relative flex flex-col rounded-md border shadow-sm overflow-hidden dark:border-neutral-800" >
+        <div className="p-4 relative flex flex-col rounded-md border shadow-sm overflow-hidden bg-white dark:border-neutral-800" >
             <div className="flex flex-col gap-2 justify-between">
                 <div className="w-full justify-between items-center flex space-x-[10px]">
                     <div className='flex items-center gap-2'>

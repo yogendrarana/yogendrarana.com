@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import { useState } from "react";
 
 // data
@@ -9,13 +8,12 @@ import { MY_DATA } from "@/data/my-data";
 
 // components
 import Accordion from "@/components/util/accordion";
-import Experience from "./experience";
 
 const About = () => {
-    const [activeAccordion, setActiveAccordion] = useState<number | false>(false);
+    const [activeAccordion, setActiveAccordion] = useState<number>(0);
 
     return (
-        <div className="p-2 border rounded-lg shadow-sm flex flex-col justify-center overflow-hidden">
+        <div className="p-2 border rounded-lg bg-white shadow-sm flex flex-col justify-center overflow-hidden">
             <div className="p-6 sm:p-10 md:p-20 bg-gray-100 rounded-lg flex flex-col gap-8">
                 {/* heading */}
                 <div className="border-b border-gray-300">
@@ -37,7 +35,12 @@ const About = () => {
                             MY_DATA.faq.map((faq, index) => {
                                 return (
                                     <div key={index} onClick={() => setActiveAccordion(index)}>
-                                        <Accordion question={faq.question} answer={faq.answer} activeAccordion={activeAccordion} i={index} />
+                                        <Accordion
+                                            question={faq.question}
+                                            answer={faq.answer}
+                                            activeAccordion={activeAccordion}
+                                            i={index}
+                                        />
                                     </div>
                                 )
                             })

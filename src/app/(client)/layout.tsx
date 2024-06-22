@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 
 import "@/styles/globals.css";
+import BackgroundProvider from "@/components/provider/background-provider";
 
 export const metadata: Metadata = {
   title: "Yogendra Rana",
@@ -18,7 +19,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       </head>
       <body>
         <main>
-          {children}
+          <BackgroundProvider>
+            {children}
+          </BackgroundProvider>
         </main>
       </body>
       <Analytics />
