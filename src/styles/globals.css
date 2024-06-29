@@ -107,7 +107,7 @@ html {
 }
 
 /* banner */
-.banner {
+/* .banner {
   content: "";
   position: absolute;
   inset: 0;
@@ -121,4 +121,4 @@ html {
       transparent 2px var(--size)) 50% 50% / var(--size) var(--size);
   mask: linear-gradient(180deg, white, transparent);
   z-index: -10;
-}
+} */

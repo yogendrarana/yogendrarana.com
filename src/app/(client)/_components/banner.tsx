@@ -18,7 +18,7 @@ const Banner = () => {
     const primary_stack = [...primary_languages, ...primary_frameworks];
 
     return (
-        <div className='h-[80vh] w-full flex flex-col justify-between relative'>
+        <div className='h-[70vh] w-full flex flex-col justify-between relative'>
             <Navbar />
             <div className='flex flex-col flex-1 gap-10 justify-center items-center w-full'>
                 <div className="px-3 py-1 border rounded-full flex items-center gap-2">

@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss"
+import { fontFamily } from "tailwindcss/defaultTheme";
 
 const config = {
   mode: "jit",
@@ -24,6 +25,10 @@ const config = {
         'md': '768px',
         'lg': '1024px',
         'xl': '1280px',
+      },
+      fontFamily: {
+        sans: ["var(--font-sans)", ...fontFamily.sans],
+        mono: ["var(--font-geist-mono)", ...fontFamily.mono],
       },
       keyframes: {
         "accordion-down": {
