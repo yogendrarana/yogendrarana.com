@@ -42,11 +42,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           "selection:bg-neutral-200 dark:selection:bg-neutral-700",
         )}
       >
-        <main>
-          <BackgroundProvider>
-            {children}
-          </BackgroundProvider>
-        </main>
+        <BackgroundProvider>
+          {children}
+        </BackgroundProvider>
       </body>
       <Analytics />
     </html>
