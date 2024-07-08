@@ -10,7 +10,7 @@ export const MY_DATA = {
     professionalSummary: "I am a full stack web developer with over a year of experience building user interfaces and RESTful APIs. Proficient in JavaScript/TS and its frameworks like React, Next, Node, Express, and Nest. Also familiar with Go and its backend framework, Gin.",
     avatarUrl: " https://github.com/yogendrarana.png",
     personalWebsiteUrl: "https://www.yogendrarana.com.np/",
-    cvUrl: "https://resume-yogendra-rana.vercel.app/",
+    cvUrl: "https://cv.yogendrarana.com.np",
     contact: {
         emails: ["yogendrarana4321@gmail.com", "yogendrarana.mail@gmail.com"],
         tel: "+977 9825159891",
