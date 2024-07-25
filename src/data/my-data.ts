@@ -1,4 +1,4 @@
-import { ArtsyLogo, SwiftLogo } from "@/assets";
+import { ArtsyLogo, SwiftLogo, LightBulb } from "@/assets";
 
 export const MY_DATA = {
     name: "Yogendra Rana",
@@ -90,6 +90,14 @@ export const MY_DATA = {
         "Ubuntu",
     ],
     projects: [
+        {
+            title: "Feedback",
+            techStack: ["Next.js", "Shad CN", "Auth.js", "MongoDB", "Resend", "Stripe"],
+            description: "An open source project helping web developers collect feedbacks from their users.",
+            image: LightBulb,
+            liveLink: "https://feedbackio.vercel.app/",
+            githubLink: "https://github.com/yogendrarana/feedback.io"
+        },
         {
             title: "Swift Chat",
             techStack: ["Next.js", "Zustand", "Pusher", "Auth.js", "Framer Motion"],
