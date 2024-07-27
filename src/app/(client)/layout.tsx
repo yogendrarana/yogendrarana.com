@@ -1,5 +1,5 @@
 import "@/styles/globals.css";
-import { cn } from "@/util/cn";
+import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Analytics } from "@vercel/analytics/react";

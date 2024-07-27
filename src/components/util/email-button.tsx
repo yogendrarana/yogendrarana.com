@@ -1,6 +1,6 @@
 "use client";
 
-const EmailButton = ({email}: {email: string}) => {
+const EmailButton = ({ email }: { email: string }) => {
     const handleClickOnMail = () => {
         window.open(`mailto:${email}`);
     }

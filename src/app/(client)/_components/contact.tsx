@@ -15,30 +15,29 @@ const Contact = () => {
                 </div>
             </div>
 
+            <div className="flex flex-col md:flex-row gap-8 justify-between">
+                <div className="space-y-2">
+                    <p>Email Me:</p>
+                    <EmailButton email={MY_DATA.contact.emails[1]} />
+                </div>
 
-
-            {/* contact detail */}
-            <div className="space-y-2">
-                <h1 className="text-lg">Mail me:</h1>
-                <EmailButton email={MY_DATA.contact.emails[1]} />
-            </div>
-
-            <div className="space-y-2">
-                <p className="text-lg">Find me on:</p>
-                <div className="font-bold flex flex-col md:flex-row gap-2 md:gap-10 flex-wrap">
-                    {
-                        MY_DATA.contact.social.map((social, index) => {
-                            return (
-                                <div key={index} className="flex gap-2 items-center">
-                                    <i className={social.logo.src} />
-                                    <AnimatedLink
-                                        label={social.name}
-                                        url={social.url}
-                                    />
-                                </div>
-                            )
-                        })
-                    }
+                <div className="space-y-2">
+                    <p>Find me on:</p>
+                    <div className="font-bold flex flex-col md:flex-row gap-2 md:gap-10 flex-wrap">
+                        {
+                            MY_DATA.contact.social.map((social, index) => {
+                                return (
+                                    <div key={index} className="flex gap-2 items-center">
+                                        <i className={social.logo.src} />
+                                        <AnimatedLink
+                                            label={social.name}
+                                            url={social.url}
+                                        />
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
                 </div>
             </div>
         </div>
