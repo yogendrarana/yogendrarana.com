@@ -91,12 +91,12 @@ export const MY_DATA = {
     ],
     projects: [
         {
-            title: "Feedback",
-            techStack: ["Next.js", "Shad CN", "Auth.js", "MongoDB", "Resend", "Stripe"],
+            title: "Feedmo",
+            techStack: ["Next.js", "radix UI", "Shad CN", "Auth.js", "MongoDB", "Resend", "Stripe"],
             description: "An open source project helping web developers collect feedbacks from their users.",
             image: LightBulb,
-            liveLink: "https://feedbackio.vercel.app/",
-            githubLink: "https://github.com/yogendrarana/feedback.io"
+            liveLink: "https://feedmo.vercel.app/",
+            githubLink: "https://github.com/yogendrarana/feedmo"
         },
         {
             title: "Swift Chat",
