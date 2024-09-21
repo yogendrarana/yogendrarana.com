@@ -4,12 +4,13 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 // components
-import Navbar from "../../../components/navigation/navbar";
+import Navbar from "@/components/navigation/navbar";
 
 // data
 import { tech } from "@/config/tech"
 import { MY_DATA } from "@/data/my-data";
 import { Dock, DockIcon } from "@/components/util/dock";
+import { MapPin } from "lucide-react";
 
 const Banner = () => {
     const name = MY_DATA.name.split("");
@@ -22,7 +23,7 @@ const Banner = () => {
             <Navbar />
             <div className='flex flex-col flex-1 gap-10 justify-center items-center w-full'>
                 <div className="px-3 py-1 border rounded-full flex items-center gap-2">
-                    <div className="size-3 bg-green-500 rounded-full"> </div>
+                    <MapPin size={14} />
                     <div className="text-sm">{MY_DATA.generalSummary}</div>
                 </div>
 

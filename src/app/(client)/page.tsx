@@ -2,7 +2,6 @@ import { cn } from "@/lib/utils";
 import Projects from "./_components/projects";
 import About from "@/app/(client)/_components/about";
 import Banner from "@/app/(client)/_components/banner";
-import Footer from "@/app/(client)/_components/footer";
 import Contact from "@/app/(client)/_components/contact";
 
 const HomePage = () => {
@@ -15,7 +14,6 @@ const HomePage = () => {
       <About />
       <Projects />
       <Contact />
-      {/* <Footer /> */}
     </div>
   )
 }

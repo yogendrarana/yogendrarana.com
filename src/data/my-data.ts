@@ -130,7 +130,7 @@ export const MY_DATA = {
         },
         {
             "question": "What is your tech stack?",
-            "answer": "My tech stack includes React, Next and Node. I use MongoDB, MySQL, and PostgreSQL. In my personal projects, I use Go and Gin for the backend."
+            "answer": "My tech stack includes React.js, Next.js and Node.js. I use MongoDB and PostgreSQL. I have also worked with Nest.js and Golang in my personal projects."
         },
         {
             "question": "When did you start coding?",
